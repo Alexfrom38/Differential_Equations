@@ -8,7 +8,6 @@ void Insert_In_File(double* new_array, size_t count, std::fstream& stream)
 		for (size_t i = 0; i < count; i++)    
 			stream << new_array[i] << " ";
 		stream << "\n";
-		//stream << "\n";
 	}
 	else
 		throw "The file isn't exist";
